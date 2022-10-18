@@ -1,0 +1,60 @@
+.myIframeDiv {
+ z-index: 999999;
+ width: 100%;
+ position: absolute;
+ top: 50px;
+}
+
+.myIframe{
+ display: block;
+ margin: 0 auto;
+ padding: 20px;
+ border-style: none;
+ border-radius: 17px;
+ background-color: orange;
+ width: 800px;
+ height: 400px;
+}
+
+.myIframeBody{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ width: 100%;
+ height: 100%;
+}
+
+.myTable{
+ border: 2px solid black;
+ border-collapse: collapse;
+ width: 100%;
+ height: auto;
+}
+
+.myHedTh{
+ border-left: 2px solid black;
+ border-bottom: 2px solid black;
+}
+
+.myHodTd{
+ border-right: 2px solid black;
+}
+
+.mainButtonDiv{
+ position: fixed;
+ right: 20px;
+ bottom: 50px;
+ z-index: 999999;
+}
+
+.adsBtn{
+ border-radius: 50%;
+ height: 110px;
+ width: 110px;
+ background-color: orange;
+}
+
+.tableWrapper{
+ width: 100%;
+}
